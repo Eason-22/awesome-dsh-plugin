@@ -1,0 +1,7 @@
+url: https://github.com/Eason-22/dsh-autorestart
+name: Eason-22/dsh-autorestart
+category: session
+description:
+  en: 'DeepSeek Harness plugin: restart without losing work — an idle-aware graceful restart waits for every conversation to go idle and resumes the interrupted sessions afterwards. It recognises how the host was started (the desktop client, an existing supervisor, or a bare process nobody manages) and never starts a second DSH; when the host does not come up, the pre-restart backup is rolled back.'
+  zh: '重启不丢工作——等所有对话空闲后优雅重启，重启后自动接续被打断的会话。能认出宿主是怎么被启动的（桌面版 / 已有守护 / 没人管的裸跑），绝不双开；宿主起不来时回滚重启前的备份。'
+icon: https://raw.githubusercontent.com/Eason-22/dsh-autorestart/main/assets/icon-180.png
